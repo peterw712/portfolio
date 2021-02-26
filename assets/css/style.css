@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family:sans-serif;
+  }
+
+img {
+    max-width: 25%;
+max-height: auto;
+border: 10px, solid, black;
+}
+
+header {
+    background-color: aquamarine;
+}
+
+header div {
+    display:inline-flex;
+justify-content: space-around;
+}
+
+
+header h1 {
+    font-size: 64px;
+}
+
+header h2 {
+    font-size: 32px;
+}
+
+header div div {
+    display:flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+nav {
+    display:flex;
+justify-content: space-around;
+margin-top: 2em;
+padding-bottom: 2em;
+}
+
+
+
+
+
