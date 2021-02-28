@@ -1,51 +1,65 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
 
 body {
-    font-family:sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
   }
 
-img {
-    max-width: 25%;
-max-height: auto;
-border: 10px, solid, black;
-}
-
-header {
-    background-color: aquamarine;
-}
-
 header div {
-    display:inline-flex;
-justify-content: space-around;
-}
-
-
-header h1 {
-    font-size: 64px;
-}
-
-header h2 {
-    font-size: 32px;
-}
-
-header div div {
     display:flex;
-flex-direction: column;
-justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cadetblue;
 }
 
-nav {
-    display:flex;
-justify-content: space-around;
-margin-top: 2em;
-padding-bottom: 2em;
-}
+header h1 {padding-left: 1em;}
+
+.box {display: flex;
+    flex-direction:row-reverse;
+    align-items: flex-end;
+    height: 11em;
+background-color: darkcyan;}
+
+.box h2 {padding-right: 2em;}
+
+nav a {padding-right: 2em;}
+
+img {height: 11em;
+width: auto;
+padding-left: 2em;}
+
+#about-me {display: flex;
+    justify-content: left;
+height: 11em}
+
+#about-me h2 {padding-left: 2em;
+    padding-right: 2em;
+border-right: 3px solid black;}
+
+#about-me p {padding-left: 2em;}
+
+#my-work {display: flex;
+    justify-content: left;
+height: 33em}
+
+#my-work h2 {padding-left: 2em;
+    padding-right: 2.38em;
+border-right: 3px solid black;}
+
+#my-work p {padding-left: 2em;}
+
+#contact-me {display: flex;
+    justify-content: left;
+height: 5.5em}
+
+#contact-me h2 {padding-left: 2em;
+    padding-right: 1.15em;
+border-right: 3px solid black;}
+
+#contact-me p {padding-left: 2em;}
 
 
+
+
+  
 
 
 
