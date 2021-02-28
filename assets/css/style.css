@@ -1,4 +1,3 @@
-
 body {
     font-family: Helvetica, Arial, sans-serif;
   }
@@ -41,10 +40,8 @@ border-right: 3px solid black;}
 height: 33em}
 
 #my-work h2 {padding-left: 2em;
-    padding-right: 2.38em;
+    padding-right: 3.1em;
 border-right: 3px solid black;}
-
-#my-work p {padding-left: 2em;}
 
 #contact-me {display: flex;
     justify-content: left;
@@ -55,6 +52,35 @@ height: 5.5em}
 border-right: 3px solid black;}
 
 #contact-me p {padding-left: 2em;}
+
+.grid-container {display: grid;
+grid-template-columns: 2fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+gap: 1em;
+width: 100vw;
+padding-left: 1em;}
+
+.grid-container #largest-card {display: grid;
+    grid-row-start: span 2;
+background-image: url("../images/horiseon.jpeg");
+background-size: cover;
+opacity: 75%;}
+
+.grid-container #run-buddy {
+    background-image: url("../images/run-buddy.png");
+    background-size: cover;
+opacity: 75%}
+
+
+.grid-item {display:flex;
+align-items: center;
+background-color: grey;}
+
+.grid-item span {
+    width: 50%;
+    background-color: cadetblue;
+    padding: 10px 5px;
+  }
 
 
 
