@@ -15,61 +15,86 @@ header div {
     background-color: cadetblue;
 }
 
-header h1 {padding-left: 1em;
+header h1 {
+    padding-left: 1em;
     padding-right: 1em;
-background-color: white;}
+background-color: white;
+}
 
-.box {display: flex;
+.box {
+    display: flex;
     flex-direction:row-reverse;
     flex-wrap: wrap;
     align-items: flex-end;
     height: 11em;
-background-color: darkcyan;}
+background-color: darkcyan;
+}
 
-.box h2 {padding-right: 1em;
+.box h2 {
+    padding-right: 1em;
     padding-left: 1em;
     margin-right: 1em;
-background-color: white;}
+background-color: white;
+}
 
-nav a {padding-right: 2em;}
-
-img {height: 11em;
-width: auto;
-padding-left: 2em;}
-
-#about-me {display: flex;
-    justify-content: left;
-height: 11em}
-
-#about-me h2 {padding-left: 2em;
+nav a {
     padding-right: 2em;
-border-right: 3px solid black;}
+}
 
-#about-me p {padding-left: 2em;}
+img {
+    height: 11em;
+width: auto;
+padding-left: 2em;
+}
 
-#my-work {display: flex;
+#about-me {
+    display: flex;
     justify-content: left;
-height: 33em}
+height: 11em
+}
 
-#my-work h2 {padding-left: 2em;
+#about-me h2 {
+    padding-left: 2em;
+    padding-right: 2em;
+border-right: 3px solid black;
+}
+
+#about-me p {
+    padding-left: 2em;
+}
+
+#my-work {
+    display: flex;
+    justify-content: left;
+height: 33em
+}
+
+#my-work h2 {
+    padding-left: 2em;
     padding-right: 3.1em;
-border-right: 3px solid black;}
+border-right: 3px solid black;
+}
 
-#contact-me h2 {padding-left: 2em;
+#contact-me h2 {
+    padding-left: 2em;
     padding-right: 1.14em;
     padding-bottom: 3em;
-border-right: 3px solid black;}
+border-right: 3px solid black;
+}
 
-.grid-container {display: grid;
+.grid-container {
+    display: grid;
 grid-template-columns: 2fr 1fr 1fr;
 grid-template-rows: 1fr 1fr;
 gap: 1em;
 width: 100vw;
 height: 92%;
 padding-left: 1em;
-padding-top: 1.3em;}
+padding-top: 1.3em;
+}
 
-.grid-container #largest-card {display: grid;
+.grid-container #largest-card {
+    display: grid;
     grid-row-start: span 2;
 background-image: url("../images/horiseon.jpeg");
 background-size: cover;
@@ -81,15 +106,18 @@ opacity: 75%;
 .grid-container #run-buddy {
     background-image: url("../images/run-buddy.png");
     background-size: cover;
-opacity: 75%}
+opacity: 75%
+}
 
 #run-buddy:hover {opacity: 100%}
 
 
-.grid-item {display:flex;
+.grid-item {
+    display:flex;
     flex-wrap: wrap;
 align-items: center;
-background-color: grey;}
+background-color: grey;
+}
 
 .grid-item span {
     width: 50%;
@@ -97,25 +125,35 @@ background-color: grey;}
     padding: 10px 5px;
   }
 
-#contact-me {display: flex;
+#contact-me {
+    display: flex;
 justify-content: space-between;
 align-items:center;
-height: 100%;}
+height: 100%;
+}
 
 #github {padding-right: 10em;}
 
-#phone-number {padding-right: 5em;}
+#phone-number {
+    padding-right: 5em;
+padding-left: 2em;
+}
 
 #email {padding-right: 5em;}
 
-@media screen and (max-width: 768px){body {
+@media screen and (max-width: 768px){
+    body {
     transform: scale(calc(768/1000));
-    transform-origin: 0,0;}}
+    transform-origin: 0,0;
+    }
+}
 
 @media screen and (max-width: 575px) { 
     body {
     transform: scale(calc(575/1000));
-    transform-origin: 0,0;}}
+    transform-origin: 0,0;
+    }
+}
 
 
 
