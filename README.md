@@ -6,5 +6,5 @@ Maybe this was because the CSS wasn't written in the most efficient way, but I d
 I tried to find a compromise, so I ended up using the media queries to resize the whole page instead.
 ## Deployed application:
 https://peterw712.github.io/portfolio/
-## Screenshot
+## Screenshot:
 ![screenshot](assets/images/screenshot.png)
