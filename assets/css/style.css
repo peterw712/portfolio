@@ -1,23 +1,35 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
-  }
+    background-color: azure;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    min-width: 575px;
+    position: relative; 
+}
 
 header div {
     display:flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     background-color: cadetblue;
 }
 
-header h1 {padding-left: 1em;}
+header h1 {padding-left: 1em;
+    padding-right: 1em;
+background-color: white;}
 
 .box {display: flex;
     flex-direction:row-reverse;
+    flex-wrap: wrap;
     align-items: flex-end;
     height: 11em;
 background-color: darkcyan;}
 
-.box h2 {padding-right: 2em;}
+.box h2 {padding-right: 1em;
+    padding-left: 1em;
+    margin-right: 1em;
+background-color: white;}
 
 nav a {padding-right: 2em;}
 
@@ -43,36 +55,39 @@ height: 33em}
     padding-right: 3.1em;
 border-right: 3px solid black;}
 
-#contact-me {display: flex;
-    justify-content: left;
-height: 5.5em}
-
 #contact-me h2 {padding-left: 2em;
-    padding-right: 1.15em;
+    padding-right: 1.14em;
+    padding-bottom: 3em;
 border-right: 3px solid black;}
-
-#contact-me p {padding-left: 2em;}
 
 .grid-container {display: grid;
 grid-template-columns: 2fr 1fr 1fr;
 grid-template-rows: 1fr 1fr;
 gap: 1em;
 width: 100vw;
-padding-left: 1em;}
+height: 92%;
+padding-left: 1em;
+padding-top: 1.3em;}
 
 .grid-container #largest-card {display: grid;
     grid-row-start: span 2;
 background-image: url("../images/horiseon.jpeg");
 background-size: cover;
-opacity: 75%;}
+opacity: 75%;
+}
+
+#largest-card:hover {opacity: 100%;}
 
 .grid-container #run-buddy {
     background-image: url("../images/run-buddy.png");
     background-size: cover;
 opacity: 75%}
 
+#run-buddy:hover {opacity: 100%}
+
 
 .grid-item {display:flex;
+    flex-wrap: wrap;
 align-items: center;
 background-color: grey;}
 
@@ -82,10 +97,26 @@ background-color: grey;}
     padding: 10px 5px;
   }
 
+#contact-me {display: flex;
+justify-content: space-between;
+align-items:center;
+height: 100%;}
 
+#github {padding-right: 10em;}
 
+#phone-number {padding-right: 5em;}
 
-  
+#email {padding-right: 5em;}
+
+@media screen and (max-width: 768px){body {
+    transform: scale(calc(768/1000));
+    transform-origin: 0,0;}}
+
+@media screen and (max-width: 575px) { 
+    body {
+    transform: scale(calc(575/1000));
+    transform-origin: 0,0;}}
+
 
 
 
