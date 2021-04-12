@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Description
 My portfolio, showcasing information about myself, my projects, and my contact info.
 ## Challenges
