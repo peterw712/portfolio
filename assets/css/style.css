@@ -71,7 +71,7 @@ padding-top: 1.3em;}
 
 .grid-container #largest-card {display: grid;
     grid-row-start: span 2;
-background-image: url("../images/horiseon.jpeg");
+background-image: url("../images/habit-tracker.png");
 background-size: cover;
 opacity: 75%;
 }
@@ -84,7 +84,6 @@ opacity: 75%;
 opacity: 75%}
 
 #run-buddy:hover {opacity: 100%}
-
 
 .grid-item {display:flex;
     flex-wrap: wrap;
