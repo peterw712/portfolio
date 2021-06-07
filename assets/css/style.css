@@ -113,6 +113,9 @@ opacity: 75%;
 .grid-container #run-buddy {
     background-image: url("../images/run-buddy.png");
     background-size: cover;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
 opacity: 75%;
 }
 
@@ -125,6 +128,8 @@ align-items: center;
 background-image: url("../images/opinion-guess.jpeg");
 opacity: 75%;
 }
+
+#guess-opinion:hover {opacity: 100%}
 
 #contact-me {
     display: flex;
