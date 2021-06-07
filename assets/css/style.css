@@ -104,6 +104,9 @@ padding-top: 1.3em;
     display: grid;
     grid-row-start: span 2;
 background-image: url("../images/habit-tracker.png");
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
 background-size: cover;
 opacity: 75%;
 }
