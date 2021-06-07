@@ -118,20 +118,13 @@ opacity: 75%;
 
 #run-buddy:hover {opacity: 100%}
 
-
-.grid-item #guess-opinion {
+.grid-container #guess-opinion {
     display:flex;
     flex-wrap: wrap;
 align-items: center;
 background-image: url("../images/opinion-guess.jpeg");
 opacity: 75%;
 }
-
-.grid-item span {
-    width: 50%;
-    background-color: cadetblue;
-    padding: 10px 5px;
-  }
 
 #contact-me {
     display: flex;
