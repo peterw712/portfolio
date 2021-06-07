@@ -103,12 +103,12 @@ padding-top: 1.3em;
 .grid-container #largest-card {
     display: grid;
     grid-row-start: span 2;
-background-image: url("../images/habit-tracker.png");
-    display:flex;
+    background-image: url("../images/habit-tracker.png");
+    background-size: cover;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
-background-size: cover;
-opacity: 75%;
+    opacity: 75%;
 }
 
 #largest-card:hover {opacity: 100%;}
@@ -116,36 +116,36 @@ opacity: 75%;
 .grid-container #run-buddy {
     background-image: url("../images/run-buddy.png");
     background-size: cover;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
-opacity: 75%;
+    opacity: 75%;
 }
 
 #run-buddy:hover {opacity: 100%}
 
 .grid-container #guess-opinion {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-align-items: center;
-background-image: url("../images/opinion-guess.jpeg");
-opacity: 75%;
+    align-items: center;
+    background-image: url("../images/opinion-guess.jpeg");
+    opacity: 75%;
 }
 
 #guess-opinion:hover {opacity: 100%}
 
 #contact-me {
     display: flex;
-justify-content: space-between;
-align-items:center;
-height: 100%;
+    justify-content: space-between;
+    align-items:center;
+    height: 100%;
 }
 
 #github {padding-right: 10em;}
 
 #phone-number {
     padding-right: 5em;
-padding-left: 2em;
+    padding-left: 2em;
 }
 
 #email {padding-right: 5em;}
