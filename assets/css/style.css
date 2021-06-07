@@ -129,6 +129,7 @@ padding-top: 1.3em;
     flex-wrap: wrap;
     align-items: center;
     background-image: url("../images/opinion-guess.jpeg");
+    background-size: cover;
     opacity: 75%;
 }
 
