@@ -114,7 +114,7 @@ padding-top: 1.3em;
 #largest-card:hover {opacity: 100%;}
 
 .grid-container #run-buddy {
-    background-image: url("../images/run-buddy.png");
+    background-image: url("../images/randomeyes.png");
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
